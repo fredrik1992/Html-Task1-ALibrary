@@ -1,0 +1,159 @@
+.page {
+    
+    height: 900px;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+
+main{
+    display: grid;
+    position: relative;
+    background-color: aquamarine;
+    height: 80%;
+    width: 80%;
+    margin-top: 100px;
+    grid-template-areas: 
+    "bookshelf "
+    "bar";
+
+    grid-template-rows: 70% auto;
+
+        
+   
+}
+
+
+
+
+
+
+.bookshelfArea{
+    grid-area: bookshelf;
+    
+    background-color: blue;
+    height: 100%;
+    
+    width: 100%;
+}
+.shelfPicture{
+    width: 100%;
+    height: 100%;
+}
+
+.bookList{
+   display: flex;
+    position: relative;
+    top: -100%;
+    height: 200%;
+    
+}
+.buttons{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.book{
+    
+    width: 10%;
+    height: 20%;
+    margin-right: 10px;
+}
+
+.books{
+    width: 100%;
+    height: 100%;
+}
+#book0{
+    
+}
+
+#book1{
+
+}
+
+#book2{
+    
+}
+
+#book3{
+    display: none;
+}
+
+#book4{
+
+    display: none;
+    
+}
+
+#book5{
+    
+    display: none;
+    
+}
+#book6{
+
+    display: none;
+    
+}
+#book7{
+
+    display: none;
+    
+}
+#book8{
+
+    display: none;
+    
+}
+
+#book9{
+
+    display: none;
+    
+}
+
+ .openBook{
+    display: none;
+    position: relative;
+    background-image: url(/openBook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 60%;
+    height: 60%;
+    top: -260%;
+    left: 20%;
+    
+ }
+
+.text{
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+
+ .closingButton{
+     display: none;
+    position: relative;
+    left: 80%;
+    top: -320%;
+ }
+
+ .barArea{
+    display: flex;
+    background-color: blueviolet;
+    grid-area: bar;
+}
+
+#addButton{
+    position: relative;
+    height: 50%;
+    width: 20%;
+    top: 50%;
+}
+

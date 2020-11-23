@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Fredrik_Granath.js"></script>
+    
+    
+</head>
+<body>
+
+    <div class="page">
+
+
+
+
+        <main>
+
+            <div class="bookshelfArea">
+                <img src="bookSHelf.jpg" class="shelfPicture" alt="">
+
+                <ul class="bookList">
+                    <li class="book" id="book0"><button class="buttons" onclick="BookSelection(0)"><img src="book1.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book1"><button class="buttons" onclick="BookSelection(1)"><img src="book2.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book2"><button class="buttons" onclick="BookSelection(2)"><img src="book3.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book3" ><button class="buttons" onclick="BookSelection(3)"><img src="book4.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book4"><button class="buttons" onclick="BookSelection(4)"><img src="book5.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book5"><button class="buttons" onclick="BookSelection(5)"><img src="book6.png" class="books"  alt=""></button></li>
+                   
+                    <li class="book" id="book6"><button class="buttons" onclick="BookSelection(6)"><img src="book7.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book7"><button class="buttons" onclick="BookSelection(7)"><img src="book8.png" class="books"  alt=""></button></li>
+                    
+                    <li class="book" id="book8"><button class="buttons" onclick="BookSelection(8)"><img src="book9.png" class="books"  alt=""></button></li>
+                </ul>
+
+                <div class="openBook" id="openBook"> <div class="text" id="openBook2"></div></div>
+                <button class="closingButton" id="bookCloser" onclick="closingWindow()">X</button>
+
+
+
+            </div>
+
+
+
+
+            <div class="barArea">
+
+                <button  id="addButton" onclick="AddBooks()">Add books to shelf!</button>
+                <button  id="addButton" onclick="RemoveBooks()">Remove Books From shelf</button>
+                <button  id="addButton" onclick="getBooksCall()">Show list of books in shelf</button>
+                
+
+                
+
+
+            </div>
+
+            
+        </main>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
